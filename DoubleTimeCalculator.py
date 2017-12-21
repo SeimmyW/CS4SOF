@@ -1,0 +1,10 @@
+print("Approximate Double Time Calculator,")
+initialvalue = int(input("Enter the inital value: "))
+rate = int(input("Enter the rate across a period of time (%): "))
+doubletimerate = 70/rate
+unit = input("Enter the unit of time (plural): ")
+print("Enter the amount of", unit , "passed: ")
+timepassed = int(input())
+doubletime = initialvalue * 2 ** (timepassed/doubletimerate)
+print("The double time is", doubletimerate, unit)
+print("Final value is", doubletime)
